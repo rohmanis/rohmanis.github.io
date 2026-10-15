@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Abdul Rohman — Software Developer</title>
+		<meta name="description" content="Abdul Rohman is a software developer in Banten, Indonesia, working with Java, Spring Boot, Bun, React and Next.js." />
+		<meta property="og:title" content="Abdul Rohman — Software Developer" />
+		<meta property="og:description" content="Java, Spring Boot, Bun, React and Next.js. Based in Serang, Banten." />
+		<meta property="og:type" content="website" />
+		<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml" />
+		<script>
+			try {
+				var th = localStorage.getItem('theme');
+				if (th === 'light' || th === 'dark') document.documentElement.dataset.theme = th;
+			} catch (e) {}
+		</script>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
