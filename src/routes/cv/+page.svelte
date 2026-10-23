@@ -28,7 +28,7 @@
 <main class="sheet">
 	<article class="paper">
 		<header>
-			<img src={asset('/profile.jpg')} width="88" height="88" alt="Portrait of {profile.name}" />
+			<img src={asset('/profile-v2.jpg')} width="88" height="88" alt="Portrait of {profile.name}" />
 			<div>
 				<h1>{profile.name}</h1>
 				<p class="role">{c.role}</p>

@@ -7,7 +7,7 @@
 
 <section id="top" class="hero">
 	<div class="wrap" use:reveal>
-		<img src={asset('/profile.jpg')} width="132" height="132" fetchpriority="high" alt="Portrait of {profile.name}" />
+		<img src={asset('/profile-v2.jpg')} width="132" height="132" fetchpriority="high" alt="Portrait of {profile.name}" />
 		<p class="pill"><span class="dot"></span>{t('hero.open')}</p>
 		<h1>{profile.name}</h1>
 		<p class="sub">{t('hero.title')}</p>
