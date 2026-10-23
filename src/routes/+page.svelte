@@ -4,6 +4,7 @@
 	import About from '../lib/components/About.svelte';
 	import Stack from '../lib/components/Stack.svelte';
 	import Journey from '../lib/components/Journey.svelte';
+	import Projects from '../lib/components/Projects.svelte';
 	import Contact from '../lib/components/Contact.svelte';
 	import Footer from '../lib/components/Footer.svelte';
 </script>
@@ -15,6 +16,7 @@
 	<About />
 	<Stack />
 	<Journey />
+	<Projects />
 	<Contact />
 </main>
 <Footer />

@@ -27,6 +27,7 @@
 			<li><a href="#about" onclick={() => (open = false)}>{t('nav.about')}</a></li>
 			<li><a href="#stack" onclick={() => (open = false)}>{t('nav.stack')}</a></li>
 			<li><a href="#journey" onclick={() => (open = false)}>{t('nav.journey')}</a></li>
+			<li><a href="#projects" onclick={() => (open = false)}>{t('nav.projects')}</a></li>
 			<li><a href="#contact" onclick={() => (open = false)}>{t('nav.contact')}</a></li>
 		</ul>
 		<div class="tools">
