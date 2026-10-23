@@ -5,7 +5,7 @@
 	import { resolve } from '$app/paths';
 </script>
 
-<section id="contact" class="alt">
+<section id="contact">
 	<div class="wrap" use:reveal>
 		<p class="eyebrow">{t('contact.eyebrow')}</p>
 		<h2 class="title">{t('contact.title')}</h2>
@@ -20,8 +20,7 @@
 </section>
 
 <style>
-	.alt {
-		background: var(--bg-alt);
+	section {
 		text-align: center;
 	}
 	.title {

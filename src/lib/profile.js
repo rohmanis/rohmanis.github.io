@@ -5,6 +5,15 @@ export const profile = {
 	instagram: 'https://www.instagram.com/abdurrohmansyareef/',
 	company: 'PT. Adwa Info Mandiri',
 	school: 'Universitas Terbuka',
+	projects: [
+		{
+			id: 'baraya-wood',
+			name: 'Baraya Wood',
+			url: 'https://rohmanis.github.io/baraya-wood/',
+			image: '/projects/baraya-wood.jpg',
+			tech: ['SvelteKit', 'Static site', 'GitHub Pages']
+		}
+	],
 	stack: [
 		{ group: 'backend', items: ['Java', 'Spring Boot'] },
 		{ group: 'runtime', items: ['Bun'] },
