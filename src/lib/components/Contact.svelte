@@ -11,6 +11,7 @@
 		<p class="text">{t('contact.text')}</p>
 		<div class="links">
 			<a class="btn primary" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+			<a class="btn" href={profile.github} target="_blank" rel="noopener noreferrer">GitHub</a>
 			<a class="btn" href={profile.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
 		</div>
 	</div>

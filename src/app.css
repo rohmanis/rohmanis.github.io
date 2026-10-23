@@ -120,3 +120,18 @@ section {
 	opacity: 1;
 	transform: none;
 }
+
+.skip {
+	position: absolute;
+	left: 16px;
+	top: -64px;
+	z-index: 20;
+	padding: 10px 16px;
+	background: var(--accent);
+	color: var(--accent-text);
+	border-radius: 980px;
+	transition: top 0.2s;
+}
+.skip:focus {
+	top: 8px;
+}

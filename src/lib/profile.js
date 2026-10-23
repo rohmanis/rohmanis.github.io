@@ -1,6 +1,7 @@
 export const profile = {
 	name: 'Abdul Rohman',
 	linkedin: 'https://www.linkedin.com/in/abdul-rohman-506544270',
+	github: 'https://github.com/rohmanis',
 	instagram: 'https://www.instagram.com/hadzarrohman/',
 	company: 'PT. Adwa Info Mandiri',
 	school: 'Universitas Terbuka',
