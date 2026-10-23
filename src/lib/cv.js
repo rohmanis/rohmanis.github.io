@@ -13,7 +13,7 @@ export const cv = {
 			languages: 'Languages'
 		},
 		role: 'Software Developer',
-		contact: { email: 'hello@example.com', phone: '+62 812 0000 0000', location: 'Serang, Banten, Indonesia' },
+		contact: { email: 'abdurrohmansyareef@gmail.com', phone: '+62 812 0000 0000', location: 'Serang, Banten, Indonesia' },
 		summary:
 			'Software developer focused on Java and Spring Boot backends, with hands-on experience building React and Next.js interfaces. I value simple, maintainable systems and clear communication.',
 		experience: [
@@ -61,7 +61,7 @@ export const cv = {
 			languages: 'Bahasa'
 		},
 		role: 'Software Developer',
-		contact: { email: 'hello@example.com', phone: '+62 812 0000 0000', location: 'Serang, Banten, Indonesia' },
+		contact: { email: 'abdurrohmansyareef@gmail.com', phone: '+62 812 0000 0000', location: 'Serang, Banten, Indonesia' },
 		summary:
 			'Software developer yang berfokus pada backend Java dan Spring Boot, dengan pengalaman membangun antarmuka React dan Next.js. Saya mengutamakan sistem yang sederhana, mudah dirawat, dan komunikasi yang jelas.',
 		experience: [
