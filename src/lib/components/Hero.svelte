@@ -2,7 +2,7 @@
 	import { t } from '../i18n.svelte.js';
 	import { profile } from '../profile.js';
 	import { reveal } from '../reveal.js';
-	import { asset } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 </script>
 
 <section id="top" class="hero">
@@ -14,6 +14,8 @@
 		<p class="meta">{t('hero.role')} · {t('hero.location')}</p>
 		<div class="cta">
 			<a class="btn primary" href="#contact">{t('hero.cta1')}</a>
+			<a class="btn" href={resolve('/cv')}>{t('hero.cta3')}</a>
+			<a class="btn" href={profile.github} target="_blank" rel="noopener noreferrer">GitHub</a>
 			<a class="btn" href={profile.linkedin} target="_blank" rel="noopener noreferrer">{t('hero.cta2')}</a>
 		</div>
 	</div>

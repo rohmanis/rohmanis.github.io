@@ -2,6 +2,7 @@
 	import { t } from '../i18n.svelte.js';
 	import { profile } from '../profile.js';
 	import { reveal } from '../reveal.js';
+	import { resolve } from '$app/paths';
 </script>
 
 <section id="contact" class="alt">
@@ -11,6 +12,7 @@
 		<p class="text">{t('contact.text')}</p>
 		<div class="links">
 			<a class="btn primary" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+			<a class="btn" href={resolve('/cv')}>{t('contact.cv')}</a>
 			<a class="btn" href={profile.github} target="_blank" rel="noopener noreferrer">GitHub</a>
 			<a class="btn" href={profile.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
 		</div>
